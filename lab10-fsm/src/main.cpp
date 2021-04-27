@@ -1,10 +1,3 @@
-/* LAB 09 
- * Requirements:
- * LED flash at 10Hz(^= every 0.05s)
- * Flashes if SW1 or SW2 are pressed
- * Record led,sw1 and sw2 data every time the input or output changes
- */
-
 extern "C" {
 #include "stm32f1xx_hal.h"
 void SysTick_Handler();
